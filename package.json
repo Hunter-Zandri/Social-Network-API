@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "## Your Task",
   "main": "server.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hunter-Zandri/Social-Network-API.git"
   },
   "author": "Hunter Zandri",
-  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  },
   "bugs": {
     "url": "https://github.com/Hunter-Zandri/Social-Network-API/issues"
   },
