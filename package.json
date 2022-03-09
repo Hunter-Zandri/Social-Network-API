@@ -1,23 +1,20 @@
 {
-  "name": "social-network-api",
+  "name": "mern-server",
   "version": "1.0.0",
-  "description": "## Your Task",
+  "description": "",
   "main": "server.js",
-
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Hunter-Zandri/Social-Network-API.git"
-  },
-  "author": "Hunter Zandri",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.0.10"
+    "mongoose": "^6.0.13"
   },
-  "bugs": {
-    "url": "https://github.com/Hunter-Zandri/Social-Network-API/issues"
-  },
-  "homepage": "https://github.com/Hunter-Zandri/Social-Network-API#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }
